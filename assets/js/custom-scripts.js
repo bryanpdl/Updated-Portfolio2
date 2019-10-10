@@ -271,7 +271,7 @@
                 watcher = scrollMonitor.create(scrollElemToWatch, -300), 
                 rev2 = new RevealFx(scrollElemToWatch, {
                     revealSettings : {
-                        bgcolor: '#0d2658',
+                        bgcolor: '#5600C5',
                         duration: 700,
                         easing: 'easeInOutCirc',
                         coverArea: 0,

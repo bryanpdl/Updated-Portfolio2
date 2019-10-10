@@ -88,7 +88,7 @@ html {
 }
 
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Chivo', sans-serif;
   font-size: 14px;
   font-style: none;
   line-height: 24px;
@@ -98,11 +98,11 @@ body {
   position: relative;
   color: #000000;
   opacity: 1;
-  background: #07011e;
+  background: #0f0f0f;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Chivo', sans-serif;
 }
 
 p {
@@ -114,7 +114,7 @@ p {
   display: inline-block;
   cursor: pointer;
   padding: 0px;
-  background-color: transparent;
+  background: #10131a;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
@@ -415,11 +415,11 @@ ul li {
 }
 
 .bg-black {
-  background-color: #000000;
+  background-color: #b83232;
 }
 
 .main-color {
-  color: #37C2CC;
+  color: rgb(44, 52, 53);
 }
 
 .p-200 {
@@ -492,7 +492,7 @@ button:focus {
 }
 
 .header-bg {
-  background-color: #FFEFE9;
+  background-color: rgb(39, 37, 37);
 }
 
 .purple-bg {
@@ -512,7 +512,7 @@ button:focus {
 }
 
 .purple-color {
-  color: #643BDF;
+  color: rgb(93, 201, 43);
 }
 
 .blue-color {
@@ -608,10 +608,10 @@ section {
 
 .mh-header {
   padding: 0;
-  background: #07011e;
+  background-color: #0f0f0f;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: none;
 }
 
 .mh-header.nav-strict {
@@ -623,7 +623,7 @@ section {
   left: 0;
   right: 0;
   top: 0;
-  background: #07011e;
+  background: #0f0f0f;
 }
 
 .mh-header.nav-strict .mh-nav {
@@ -640,7 +640,7 @@ section {
 
 .mh-header .navbar-nav li a {
   font-size: 14px;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Chivo', sans-serif;
   font-weight: 600;
   line-height: 0.71;
   letter-spacing: normal;
@@ -672,6 +672,7 @@ section {
 */
 .resume-home {
   height: 100vh;
+  background: linear-gradient(165.4deg, #242424 -22.72%, #0D0D0D 110.13%);
 }
 
 .resume-home .resume-inner {
@@ -704,10 +705,10 @@ section {
 }
 
 .resume-home .resume-img {
-  padding-top: 18px;
+  padding-top: 17px;
   margin-left: 30px;
-  width: 125%;
-  height: 100%;
+  width: 155%;
+  height: 140%;
 }
 
 .resume-home .resume-img .shape-1 {
@@ -989,6 +990,11 @@ section {
   margin-bottom: 50px;
 }
 
+.res-portfolio .resume-item-1:hover{
+  scale: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
 .res-portfolio .resume-item-1 h5 {
   font-size: 25px;
   font-weight: 500;
@@ -1038,6 +1044,10 @@ section {
   padding: 50px 45px;
   background-image: linear-gradient(330deg, #ffe596, #ffbf00);
   margin-bottom: 50px;
+}
+
+#port-txt {
+  margin-top: -190px;
 }
 
 .res-portfolio .resume-item-4 h5 {
@@ -1221,11 +1231,13 @@ section {
 
 .portfolio-home .portfolio-title {
   text-align: center;
+  font-family: 'Chivo', sans-serif;
 }
 
 .portfolio-home .portfolio-title h1 {
   color: #ffffff;
   font-size: 50px;
+  
   font-weight: bold;
   line-height: 1.28;
   letter-spacing: -1.25px;
@@ -1235,9 +1247,12 @@ section {
 .portfolio-home .portfolio-title p {
   opacity: 0.6;
   font-size: 16px;
+ 
   line-height: 1.88;
   color: #ffffff;
 }
+
+
 
 .portfolio-home .portfolio-box {
   padding: 100px 0px;
@@ -1350,14 +1365,14 @@ section {
 .portfolio-home .portfolio-box .box-inner .box_hover .heading__portfolio h5 a {
   color: #ffffff;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 30px;
   margin-bottom: 10px;
 }
 
 .portfolio-home .portfolio-box .box-inner .box_hover .heading__portfolio span {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 14px;
 }
 
@@ -1447,7 +1462,7 @@ section {
 }
 
 .project-description ul li {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 16px;
   color: #ffffff;
   font-weight: 500;
@@ -1462,7 +1477,7 @@ section {
 }
 
 .project-description ul li a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 16px;
   color: #ffffff;
   font-weight: 500;
@@ -1568,7 +1583,7 @@ section {
 }
 
 .blog-item .bl-title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 18px;
   color: #ff4952;
   line-height: 1.25;
@@ -1590,7 +1605,7 @@ section {
 }
 
 .blog-item p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.01px;
@@ -1713,7 +1728,7 @@ section {
   margin-bottom: 0px;
   margin-left: 20px;
   opacity: 0.7;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 16px;
   color: #ffffff;
 }
@@ -1728,7 +1743,7 @@ section {
   margin-left: 20px;
   margin-bottom: 0px;
   opacity: 0.7;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 16px;
   color: #ffffff;
 }
