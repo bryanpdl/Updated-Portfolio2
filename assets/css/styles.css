@@ -1129,6 +1129,10 @@ section {
   transition: all .3s;
 }
 
+.contact-social a {
+  color: white;
+}
+
 .dribbb {
 
   display: -ms-inline-grid;
@@ -1138,6 +1142,7 @@ section {
   height: 45px;
   cursor: pointer;
   border-radius: 50%;
+  margin-left: -1px;
   margin-right: 12px;
   font-size: 16px;
   color: #ffffff;
@@ -1156,7 +1161,7 @@ section {
   height: 45px;
   cursor: pointer;
   border-radius: 50%;
-  margin-right: 12px;
+  margin-left: -1px;
   font-size: 16px;
   color: #ffffff;
  
@@ -1171,12 +1176,16 @@ section {
 
   background: #DA4A42;
   color: #ffffff;
+  margin-bottom: 4px;
+  margin-left: -1px;
   border: 1px solid transparent;
 }
 
 .dribbb:hover {
 
   background: #E65289;
+ 
+  margin-left: -1px;
   color: #ffffff;
   border: 1px solid transparent;
 }
