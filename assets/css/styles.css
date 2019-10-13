@@ -602,7 +602,7 @@ section {
 */
 .mh-nav {
   width: 100%;
-  padding: 10px 0;
+  padding: 14px 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -636,7 +636,8 @@ section {
 }
 
 .mh-header .navbar-nav li {
-  margin: 16px 8px;
+  margin: 8px 8px;
+  margin-top: 22px;
 }
 
 .mh-header .navbar-nav li a {
@@ -647,6 +648,20 @@ section {
   letter-spacing: normal;
   color: #ffffff;
   opacity: .9;
+}
+
+.mh-header .navbar-nav li p {
+  font-size: 14px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 600;
+  line-height: 0.71;
+  letter-spacing: normal;
+  color: #ffffff;
+  opacity: .9;
+}
+
+.mh-header .navbar-nav li p:hover {
+  cursor: hand;
 }
 
 .dropdown-toggle::after {
